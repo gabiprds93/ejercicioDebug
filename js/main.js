@@ -4,10 +4,10 @@ var records = document.getElementById('records');
 // Constructor para generar un nuevo producto
 function Producto(compra, cantidad) 
 {
-    this.compra = compra.toLowerCase(),
-    this.producttID = (productos.length + 1),
+    this.compra = compra.toLowerCase();
+    this.producttID = (productos.length + 1);
     this.cantidad = cantidad;
-};
+}
 
 //Método para imprimir un producto en html
 Producto.prototype.toHTML = function() 
